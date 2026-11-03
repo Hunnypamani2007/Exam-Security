@@ -1,0 +1,18 @@
+# Database Configuration Template
+# Copy this file to config/db.properties and fill in your actual database credentials.
+# Environment variables will override these settings if defined (e.g. ESSS_DB_HOST, ESSS_DB_PASSWORD).
+
+db.host=127.0.0.1
+db.port=3306
+db.name=exam_security
+db.user=exam_user
+db.password=exam_secure_password_123
+
+# Test database name for automated integration tests
+db.test.name=exam_security_test
+
+# Connection settings
+db.useSSL=false
+db.allowPublicKeyRetrieval=true
+db.serverTimezone=UTC
+db.connectionTimeoutMs=5000

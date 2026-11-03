@@ -1,0 +1,22 @@
+# Application Configuration Template
+# Copy this file to config/app.properties to customize application behavior.
+
+# Keystore configuration for master AES key encryption
+keystore.path=keystore/exam_master.p12
+keystore.alias=exam-master-key
+# Keystore password can also be supplied via environment variable ESSS_KEYSTORE_PASSWORD or at launch prompt
+keystore.password=
+
+# Session and security parameters
+session.inactivityTimeoutMinutes=15
+auth.maxFailedAttempts=5
+auth.lockoutDurationMinutes=5
+
+# Key derivation iterations for PBKDF2
+crypto.pbkdf2.iterations=210000
+
+# UI Settings
+ui.defaultWidth=1100
+ui.defaultHeight=750
+ui.minWidth=1024
+ui.minHeight=768

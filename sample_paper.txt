@@ -1,0 +1,17 @@
+Q1 [MCQ] [2 marks] What is the output of 2 + 3 * 2?
+A) 10
+B) 8
+C) 12
+D) 7
+ANSWER: B
+
+Q2 [MCQ] [2 marks] Which collection class in Java maintains elements in insertion order?
+A) HashSet
+B) TreeSet
+C) LinkedHashSet
+D) PriorityQueue
+ANSWER: C
+
+Q3 [TEXT] [5 marks] Explain the difference between method overloading and method overriding in Java. Provide code snippets.
+
+Q4 [TEXT] [5 marks] Explain polymorphism in Java and how dynamic method dispatch enables runtime flexibility.
